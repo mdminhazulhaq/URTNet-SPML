@@ -4,13 +4,12 @@ URTNet: Residual Encoder and Transformer Encoder Integrated 1D U-Net Model For S
 
 ## Overview
 
-URTNet is a lightweight hybrid deep learning architecture for binary stress detection using photoplethysmography (PPG) signals. It integrates a 1D U-Net with Residual Encoder (RE) and Transformer Encoder (TE) components to learn complementary feature representations for classifying PPG signals into Normal and Stress categories.
+URTNet is a lightweight deep learning architecture for stress detection using Photoplethysmography (PPG) signals. It integrates a 1D U-Net with Residual Encoder (RE) and Transformer Encoder (TE) modules to learn complementary feature representations for classifying PPG signals into Normal and Stress categories.
 
 ## Datasets
 
-- **CASTA:** PPG dataset used for stress detection.
-- **WESAD:** Publicly available wearable sensor dataset used for stress detection.
-- **Classification:** Binary classification — Normal (0) and Stress (1).
+- **CASTA**, and **WESAD** datasets.
+
 
 ## Data Preprocessing
 
@@ -22,9 +21,7 @@ URTNet is a lightweight hybrid deep learning architecture for binary stress dete
 ## Proposed Model
 
 - **Architecture:** Hybrid 1D U-Net integrated with Residual Encoder (RE) and Transformer Encoder (TE).
-- **Total Parameters:** 409,226.
-- **Model Size:** 1.56 MB (reported).
-- **Objective:** Lightweight and efficient PPG-based stress detection for resource-constrained healthcare platforms.
+- **Objective:** Developing deep-learning based Stress Monitoring algorithms for efficient and affordable healthcare solution.
 
 ### Proposed URTNet Architecture
 
@@ -35,30 +32,18 @@ URTNet is a lightweight hybrid deep learning architecture for binary stress dete
 ## Experimental Setup
 
 - **Validation Strategy:** Leave-One-Subject-Out (LOSO) cross-validation.
-- **Testing Strategy:** One subject held out for testing in each iteration.
 - **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, ROC-AUC, and Cohen's Kappa.
 
 ## Experimental Results
 
-URTNet was evaluated on the CASTA and WESAD datasets using subject-independent LOSO cross-validation.
-
+URTNet model evaluated on  CASTA and WESAD datasets.
 ### CASTA Dataset
-
-- **Accuracy:** 85.06%
-- **Sensitivity:** 89.96%
-- **Specificity:** 70.33%
-- **Cohen's Kappa:** 0.6021
 
 ![Normalized Confusion Matrix for CASTA Dataset](Results_CASTA.jpg)
 
 *Figure 2. Normalized confusion matrix for the CASTA dataset.*
 
 ### WESAD Dataset
-
-- **Accuracy:** 93.78%
-- **Sensitivity:** 91.39%
-- **Specificity:** 95.13%
-- **Cohen's Kappa:** 0.8652
 
 ![Normalized Confusion Matrix for WESAD Dataset](Results_WESAD.jpg)
 
@@ -73,9 +58,9 @@ The PPG-based stress detection research includes deployment on resource-constrai
 
 ## Code Availability
 
-The associated research manuscript is currently under preparation. This repository provides an overview of the proposed URTNet architecture, datasets, preprocessing methodology, experimental setup, and research results.
+This repository provides an overview of the proposed URTNet architecture, datasets, preprocessing methodology, experimental setup, and research results.
 
-The complete source code and full model implementation will be made publicly available following publication of the associated research paper.
+The complete source code and full model implementation will be available following publication of the associated research paper.
 
 
 
