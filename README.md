@@ -77,26 +77,6 @@ The associated research manuscript is currently under preparation. This reposito
 
 The complete source code and full model implementation will be made publicly available following publication of the associated research paper.
 
-## Copyright
-
-Copyright © 2026 Md. Minhazul Haq. All rights reserved.
-
-The materials in this repository are provided for research and academic reference. Reproduction, redistribution, or modification requires prior written permission from the copyright holder, except where permitted by applicable law.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Copyright
